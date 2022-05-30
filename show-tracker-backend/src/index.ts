@@ -37,7 +37,7 @@ const Pool = pg.Pool;
 const pool = new Pool({
   user: "postgres",
   host: "localhost",
-  database: "showTracker",
+  database: "showtracker",
   password: process.env.POSTGRES_PASS,
   port: 5432,
 });
